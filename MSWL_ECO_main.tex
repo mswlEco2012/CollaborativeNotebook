@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper,final]{report}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{graphics}
+\usepackage{cite}
+
+
+%This is for removing coloured boxes around the links and internal references. I don't like those boxes%
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\title{\textbf{Economic Aspects of Libre Software}\\
+		\emph{Collaborative notebook}}
+\author{AUTHOR1\\
+		AUTHOR2\\
+		AUTHOR3\\
+		AUTHOR4\\
+		AUTHOR5\\
+		AUTHOR6\\
+		AUTHOR7\\
+		AUTHOR8\\	
+		Jose Alberto Navas Guerrero (janague)\\
+		\\
+        Master on Libre Software (URJC)\\
+        Universidad Rey Juan Carlos\\
+        Spain	\\
+		}
+\date{\today}
+
+
+
+\begin{document}
+
+\maketitle
+
+
+\pagenumbering{roman}
+
+\tableofcontents
+%---- I commented these since my document doesn't need them yet-----%
+%\listoffigures
+%\listoftables
+
+%\chapter*{Acknowledgements}
+%\begin{abstract}
+%\end{abstract}
+
+\pagenumbering{arabic}
+\include{./MSWL_ECO_lesson1}
+\include{./MSWL_ECO_lesson2}
+\include{./MSWL_ECO_lesson3}
+\include{./MSWL_ECO_lesson4}
+\include{./MSWL_ECO_lesson5}
+\include{./MSWL_ECO_lesson6}
+
+
+Blablabla said Nobody ~\cite{Nobody06}.
+
+
+\bibliographystyle{abbrv}
+\bibliography{./MSWL_ECO}
+\end{document}
+
+This is never printed
