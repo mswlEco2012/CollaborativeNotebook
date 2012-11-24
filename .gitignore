@@ -1,0 +1,19 @@
+# LaTeX ignore files
+*.log
+*.aux
+
+# Gummi LaTeX editor
+*.bak
+*.swp
+
+# Avoid Pdf files
+*.pdf
+
+# Output LaTeX presentation files
+*.nav
+*.out
+*.snm
+*.toc
+
+# Filesystem
+*~
