@@ -1,4 +1,3 @@
-======================
 CollaborativeNotebook
 ======================
 
@@ -15,44 +14,44 @@ The goal of this project is to to create a ``collaborative notebook`` with the w
 Requirements
 =============
 
-#. LaTeX: LaTeX is a high-quality typesetting system.
-#. git: Distributed version control system.
+1. LaTeX: LaTeX is a high-quality typesetting system.
+2. git: Distributed version control system.
 
- .. Note::
+Note:
 
     This document is only for Linux environments.
-   
+
 Install Git
 -------------
 
 Using your preferred package manager of your Linux distribution.
 
-#. Debian/Ubuntu::
+* Debian/Ubuntu:
 
     $ apt-get install git
 
-#. Fedora::
+* Fedora:
 
     $ yum install git
 
-#. Gentoo::
+* Gentoo:
 
     $ emerge --ask --verbose dev-vcs/git
 
-#. Arch Linux::
+* Arch Linux:
 
     $ pacman -S git
 
-#. FreeBSD::
+* FreeBSD:
 
     $ cd /usr/ports/devel/git
     $ make install
 
-#. Solaris 11 Express::
+* Solaris 11 Express:
 
     $ pkg install developer/versioning/git
 
-#. OpenBSD::
+* OpenBSD:
 
     $ pkg_add git
 
