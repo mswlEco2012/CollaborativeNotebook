@@ -64,14 +64,14 @@ How to install LaTeX in Ubuntu:
 
         $ sudo apt-get install texlive
 
-The above command will install a basic subset of TeX Live’s functionality. To install all the packages in the LaTeX distribution, you have to run the following command::
+The above command will install a basic subset of TeX Live’s functionality. To install all the packages in the LaTeX distribution, you have to run the following command:
 
         $ sudo apt-get install texlive-full
 
 Generate pdf
 =============
 
-Using the command ``pdflatex`` in repository's home directory with main file will generate whole notebook pdf::
+Using the command ``pdflatex`` in repository's home directory with main file will generate whole notebook pdf:
 
         $ pdflatex MSWL_ECO_main.tex
 
