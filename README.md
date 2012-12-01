@@ -4,7 +4,7 @@ CollaborativeNotebook
 Introduction
 =============
 
-Collaborative Notebook for Economic Aspects Subject coursed in `Master on Libre Software (Master Universitario en Software libre) <http://master.libresoft.es/>`_ at `Universidad Rey juan Carlos <http://www.urjc.es/>`_.
+Collaborative Notebook for Economic Aspects Subject coursed in [Master on Libre Software (Master Universitario en Software libre](http://master.libresoft.es/) at [Universidad Rey juan Carlos](http://www.urjc.es/).
 
 Goals
 ======
@@ -26,54 +26,54 @@ Install Git
 
 Using your preferred package manager of your Linux distribution.
 
-* Debian/Ubuntu:
+*   Debian/Ubuntu:
 
-    $ apt-get install git
+        $ apt-get install git
 
-* Fedora:
+*   Fedora:
 
-    $ yum install git
+        $ yum install git
 
-* Gentoo:
+*   Gentoo:
 
-    $ emerge --ask --verbose dev-vcs/git
+        $ emerge --ask --verbose dev-vcs/git
 
-* Arch Linux:
+*   Arch Linux:
 
-    $ pacman -S git
+        $ pacman -S git
 
-* FreeBSD:
+*   FreeBSD:
 
-    $ cd /usr/ports/devel/git
-    $ make install
+        $ cd /usr/ports/devel/git
+        $ make install
 
-* Solaris 11 Express:
+*   Solaris 11 Express:
 
-    $ pkg install developer/versioning/git
+        $ pkg install developer/versioning/git
 
-* OpenBSD:
+*   OpenBSD:
 
-    $ pkg_add git
+        $ pkg_add git
 
 Install LaTeX
 --------------
 
 Here is the installation process using Ubuntu. In other Linux distributions you have to use your distro package manager.
 
-How to install LaTeX in Ubuntu::
+How to install LaTeX in Ubuntu:
 
-    $ sudo apt-get install texlive
+        $ sudo apt-get install texlive
 
 The above command will install a basic subset of TeX Live’s functionality. To install all the packages in the LaTeX distribution, you have to run the following command::
 
-    $ sudo apt-get install texlive-full
+        $ sudo apt-get install texlive-full
 
 Generate pdf
 =============
 
 Using the command ``pdflatex`` in repository's home directory with main file will generate whole notebook pdf::
 
-    $ pdflatex MSWL_ECO_main.tex
+        $ pdflatex MSWL_ECO_main.tex
 
 And see output log for compiling errors.
 
