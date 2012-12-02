@@ -68,6 +68,44 @@ The above command will install a basic subset of TeX Live’s functionality. To 
 
         $ sudo apt-get install texlive-full
 
+Files Description
+==================
+
+Images Directory
+------------------
+
+Place the images in this directory:
+
+        ├── img
+            ├── by.png
+            └── by-sa.png
+
+Bibliography
+-------------
+
+Bibliography file to update with Lesson references:
+
+        ├── MSWL_ECO.bib
+
+Documentation files
+--------------------
+
+Main LaTeX file from which all lesson files are linked:
+
+        ├── MSWL_ECO_main.tex
+
+Each file per Lesson:
+
+        ├── MSWL_ECO_lesson1.tex
+        ├── MSWL_ECO_lesson2.tex
+        ├── MSWL_ECO_lesson3.tex
+        ├── MSWL_ECO_lesson4.tex
+        ├── MSWL_ECO_lesson5.tex
+
+Description project file:
+
+        ├── README.md
+
 Generate pdf
 =============
 
@@ -76,4 +114,5 @@ Using the command ``pdflatex`` in repository's home directory with main file wil
         $ pdflatex MSWL_ECO_main.tex
 
 And see output log for compiling errors.
+
 
