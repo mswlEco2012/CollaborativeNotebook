@@ -17,3 +17,8 @@
 
 # Filesystem
 *~
+
+# TeXlipse plugin
+.project
+.texlipse
+tmp
