@@ -12,10 +12,6 @@ Different FLOSS business models inside the market. Those sample are from two yea
 
 Open innovation rise business models.
 
- I've commented this section to avoid compiling problems. commet is defined in
- verbarim package, use it as a normal item after importing in main file.
-
-%\begin{comment}
 \subparagraph{Main Content}
 
 Assets of the company to make money, culture, employees and knowledge as a part
@@ -30,7 +26,6 @@ be:
 If only produces the product strictly like a dictate of the company , although
 exists an employee who knows how to manufacture the product more better than the
 company its self therefore is underused, the resource is maximized.
-
 
 Unlike the knowledge unification among employees so as to find the best way for
 developing the product in which they all participate and the best improvments or
@@ -127,8 +122,234 @@ The organization of Free Software model allows offering best services:
 \emph{If you don't have users , you don't have any available business model.}
 %\end{Main Content}
 
-\section{Part II}\label{Part II} % TODO: Change for properly section title.
+\section{Where is FLOSS ?}\label{sec:floss-bm}
 
-...
+FLOSS by itself is not, and it has never been, a business model.
+
+\subsection{A guide for SMEs}
+
+Mobiles: sell mobiles as a business model using FLOSS, more viability, cost
+ structure, not the model itself.
+
+If the company
+
+Si la empresa no utilizara FLOSS no sería una empresa viable, es decir, sin el
+ uso de FLOSS la empresa no existiría.
+
+\subsection{FLOSSMETRICS}
+
+Study from 2008/2009 analysing 218 companies that 25\% of their total revenues
+ directly or indirectly from FLOSS.
+
+Identifying common business strategies around FLOSS.
+
+\subsubsection{3 axes}
+
+\begin{itemize}
+    \item Software model
+    \begin{itemize}
+        \item Propietary vs libre software
+    \end{itemize}
+    
+    \item Development model
+    \begin{itemize}
+        \item Barries to collaboration
+        \item Single developer/reducted group vs. large communty, global outrech.
+    \end{itemize}
+    
+    \item Business model
+    \begin{itemize}
+        \item Type of revenues model.
+        \item Numerous options: Training, support, on-demand changes, productizing, SaaS, etc.
+    \end{itemize}
+\end{itemize}
+
+Development model
+Google Android - Private production, central model.
+GCC - Libre, low barriers, medium group.
+GLibC - Libre, low barriers, little group.
+
+Business model
+SaaS using private model.
+
+\begin{comment}
+\section{Strategic uses of Libre Software}
+
+\emph{No cambias el modelo de negocio tradicional pero te apoyas en productos FLOSS para reforzalo.}
+
+Es muy difícil encontrar una empresa que no utilice ningún producto de FLOSS. FLOSS es adaptativo
+para los requisitos de una empresa. Traducciones, adaptaciones a distintos tipos de hardware,
+interoperabilidad, entornos organizativos, culturales, nuevas tecnologías.
+
+Otra tendencia, es la estrategia de liberar distintas distribuciones de software como FLOSS
+para crear una comunidad libre alrededor.
+
+Apple, Microsoft, Facebook, liberan partes de su código para crear una comunidad para mantener
+el producto por parte de la misma.
+
+Desequilibrios.
+
+Usuarios que no quieren pagar por el Software privativo y se conforman con el programa libre y gratuito.
+Pueden llegar a mejorar al modelo privativo. El privativo se ve desafiado cuando aparece una solución FLOSS
+fiable que genere una aceptación en el mercado. (sitemas embebidos)
+
+\section{Carlo Daffara taxonomy}
+
+\begin{itemize}
+    \item Dual licencing: FLOSS version and propietary version. MySQL Enterprise and MySQL FLOSS.
+    \item Open core: Allows mixing FLOSS and proprietary elements. MSExcange mail model.
+    \item Product specialists: Superior knowledge, additional services. Best service for the product.
+    \item Platform providers: Integration, product testing. PaaS: FLOSS producto integration, glue products. Test by your own.
+    \item Aggregate support providers: Primer nivel de soporte para diferentes tipos de software libre. Escalando el soporte entre todos los niveles.
+    \item Selection/consulting companies: Closer to the analyst role, minimum impact on FLOSS communities.
+    \item Legal certification and consulting : Assessment on license compatibility. Certificate interoperability.
+    \item Training and documentation: Either as part of a broader support contract or companies exclusively devoted to this market area. User guides, documentation, courses.
+    \item R&D cost sharing : Initial investment + creating community to reduce R&D costs. Create a community to reduce I+D cost % haciendo que la gente aporte desde fuera para mantenerse al día mediante la herramienta de la comunidad. OpenStack from NASA throught RackSpace sharing development cost.
+    \item Indirect revenues: Baseline for sales of associated products or services (commodities).
+\end{itemize}
+
+\subsection{Dual (or multiple) licensing)}
+
+Tienes que ser el dueño de todo el código, los contribuyentes ceden sus derechos de copyright para
+licenciar el producto. El simple hecho de tener que firmar un documento echa hacia atrás las contribuciones de la comunidad.
+
+MySQL integrado en otros productos para que el producto no se liberase siendo privado y de esta forma no violar la licencia GPL.
+Relacionado con la licencia, la licencia Apache y privativo no hubiera funcionado ya que Apache permite el uso de su código dentro
+de un producto privado.
+
+\subsection{Open core}
+
+Los ingresos o beneficios se centran en los componentes privativos alrededor 
+del núcleo libre siendo esa misma empresa la única que puede desarrollar 
+las mejoras de sus servicios. Todo el núcleo es libre.
+
+Weakness: Desarrollar el servicio privativo mediante FLOSS, replicando sus
+funcionalidades, reimplementación de un producto popular.
+
+Suelen tener licencias duales para poder proporcionar la versión FLOSS y la privada.
+
+Base grande de usuario, visibilidad y oportunidad de convertirlos a usuarios premium para 
+obtener los beneficios.
+
+Ganan valor de marca al ser reconocidos por la liberación del core.
+
+Ejemplo: Implementación de Apache SSL. 
+Valor añadido al software al ser la compañía la propietaria del núcleo.
+
+Es un modelo de negocio libre controvertido ya que genera componentes privatidos a 
+través de su plataforma libre, el núcleo.
+
+Hay un compenente de duda alrededor de estos proyectos ya que no se abren a la
+ comunidad al completo al desarrollar recursos privativos para la propia empresa.
+ 
+Otra forma más positiva de verlo, es que atrae a diferentes empresas para 
+invertir en el producto al poder desarrollar módulos privados. La empresa gasta
+ un gran esfuerzo en la viabilidad del núcleo ya que si no se extiende sus 
+ servicios no tendrían un nicho de negocio.
+
+¿ Gana más recursos ? o se puede ver perjudicada la empresa por este 
+comportamiento del modelo de negocio. ¿ De que depende que le convenga a una 
+empresa adoptar este modelo ? 
+
+Es un modelo muy cercano al privativo que intenta de alguna manera mantener al 
+cliente cercado e inmóbil. Este modelo puede tender a desaparecer porque se puede
+dar el caso que otra comunidad, proyecto o empresa que avance más rápido que 
+la solución ofrecida por la empresa y por lo tanto se vea obligada a liberar el 
+código, siendo demasiado tarde.
+
+El modelo se mueve a través de una ventana temporal, es decir el 
+openCore no parece viable de por vida, tiende a la liberación completa 
+del código. Si el producto tiene éxito, es mucho más fácil que ocurra.
+
+SendMail, SugarCRM.
+
+\subsection{Product specialists}
+
+Tengo el mejor conocimiento del producto certificado.
+
+LPI y RedHat: dos certifiaciones alrededor de Linux. 
+
+Modelo de Redhat en el campo del could computing: Incluir desarrolladores en el 
+grupo de OpenStack y convertirse en una empresa especialista, no hace falta ser el creador del producto.
+
+Weakness: Que otra empresa con mejor imagen, más nombre, mejores desarrollos desborde tu marca conseguida
+ y por lo tanto quedes relegado a un segundo plano.
+ 
+\subsection{Platform providers}
+
+\begin{itemize}
+  \item Selection, support, integration and services around a set of projects integrated in a single, tested and verified product.
+  \item Key points; 
+  \begin{itemize}
+    \item Verification services
+    \item Additional services    
+  \end{itemize}
+  \item Copyright ownership prevents direct copy (not cloning).
+  \item Example: Redhat.
+  \item The source code is libre software, but the product name and logo are trademarks.
+  \item Considerable effort to eliminate them from files, doocumentation, etc.
+\end{itemize}
+
+Modelo de negocio de integración: tabletas de marca blanca, software, hardware, etc\ldots
+Reproductores multimedia 'carrefour'.
+
+Especialización y conversión en marca blanca de una tecnología.
+
+\subsection{Aggregate support providers}
+
+Parecido al soporte clásico pero con la diferencia de que es a todos los niveles.
+
+Dos caminos a elegir:
+Mediante el uso de recursos propios o la contratación de terceros para la resolución de los problemas.
+Frontdesk; gestiona las peticiones a través de las empresas que conozcan el producto.
+
+Clear benefit for large projects whose costs could raise due to excessive diversification of support channels (comprehensive help-desl).
+
+OpenLogic: experts in Linux.
+
+\subsection{Selection/consulting companies}
+
+No desarrollan software, se encargan de proveer soluciones asesorando al cliente. Pruebas, análisis de rendimientos, conocimientos del territorio.
+
+Gente experta en un campo dedicado a hacer análisis de un producto en cuestión. 
+Estas empresas proporcionan herramientas que ayudan a reproducir resultados para interpretarlos haciendo análisis más completos.
+
+Open WebApps
+
+\subsection{Legal certification/consulting}
+
+Palamida, Blackduck (mediante ohloh), Sonatype.
+
+Especialización en las licencias de software y análisis de código para buscar posibles incompatibilidades.
+
+\subsection{Training and documentation}
+
+Training and documentation not certifiation. GBDirect. 
+
+\subsection{R&D Const sharing}
+
+Memo (nokia), nokia sólo desarrollaría una parte y el resto se quedaría en manos de la comunidad. Este modelo
+ es previo a Android. Sabían del coste de software pero no eran un empresa productora, se dedicaban a la 
+ fabricación de los terminales por lo que optaron por este modelo, dejar que el software creciera de mano
+ de la comunidad. KDE, QT, Linux eran partes que formaban el núcleo de Memo.
+ 
+OpenStack: RackSpace se dedica al mercado del cloud, vende clouds. Productizó OpenStack compartiendo el gasto 
+del desarrollo con la comunidad (HP, Redhat, Intel\ldots). No es su nicho de mercado y de esta forma el desarollo
+ de software libre lo comparte con los demás para aprovecharse del producto.
+
+\subsection{Indirect revenues}
+
+Intel, Dell, O'Relly. Perl fue el primer caso de la financiación de un proyecto de software libre a Larry Wall 
+para que éste escribiese un libro para su editorial manteniendo los gastos del proyecto a su costa para sacar 
+la próxima versión de Perl.
+
+% Include graphic.
+
+Open source going mainstream - Gartner group report.
+
+Se duplican los beneficios cada tres años después del crecimiento del uso de software libre.
+
+\ldots
+\end{comment}
 
 \section{Conclusions}\label{conclusions}
