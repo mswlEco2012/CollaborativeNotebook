@@ -122,11 +122,11 @@ The organization of Free Software model allows offering best services:
 \emph{If you don't have users , you don't have any available business model.}
 %\end{Main Content}
 
-\section{Where is FLOSS ?}\label{sec:floss-bm}
+\section{A guide for SMEs}
 
 FLOSS by itself is not, and it has never been, a business model.
 
-\subsection{A guide for SMEs}
+\subsection{Where is FLOSS ?}\label{sec:floss-bm}
 
 Mobiles: sell mobiles as a business model using FLOSS, more viability, cost
  structure, not the model itself.
@@ -139,9 +139,13 @@ Si la empresa no utilizara FLOSS no sería una empresa viable, es decir, sin el
 \subsection{FLOSSMETRICS}
 
 Study from 2008/2009 analysing 218 companies that 25\% of their total revenues
- directly or indirectly from FLOSS.
+ directly or indirectly from FLOSS\footnote{http://libresoft.es/research/projects/flossmetrics}.
 
-Identifying common business strategies around FLOSS.
+FLOSSMetrics stands for Free/Libre Open Source Software Metrics. 
+The main objective of FLOSSMETRICS was to construct, publish and analyse a large
+ scale database with information and metrics about libre software development 
+ coming from several thousands of software projects, using existing 
+ methodologies, and tools already developed.
 
 \subsubsection{3 axes}
 
@@ -164,121 +168,143 @@ Identifying common business strategies around FLOSS.
     \end{itemize}
 \end{itemize}
 
-Development model
-Google Android - Private production, central model.
-GCC - Libre, low barriers, medium group.
-GLibC - Libre, low barriers, little group.
+Development model samples:
+\begin{itemize}
+  \item Google Android - Private production, central model.
+  \item GCC - Libre, low barriers, medium group.
+  \item GLibC - Libre, low barriers, little group.
+\end{itemize}
 
-Business model
-SaaS using private model.
-
-\begin{comment}
 \section{Strategic uses of Libre Software}
 
-\emph{No cambias el modelo de negocio tradicional pero te apoyas en productos FLOSS para reforzalo.}
+\emph{You do not change the traditional business model, but you lean on FLOSS
+ products to enhance the model.}
 
-Es muy difícil encontrar una empresa que no utilice ningún producto de FLOSS. FLOSS es adaptativo
-para los requisitos de una empresa. Traducciones, adaptaciones a distintos tipos de hardware,
-interoperabilidad, entornos organizativos, culturales, nuevas tecnologías.
+It is very difficult to find a company that does not use any of FLOSS. 
+FLOSS is adaptive to the requirements of a company. 
+Translations, adaptations to different types of hardware, interoperability, 
+organizational environments, culture, new technologies.
 
-Otra tendencia, es la estrategia de liberar distintas distribuciones de software como FLOSS
-para crear una comunidad libre alrededor.
+Otra tendencia, es la estrategia de liberar distintas distribuciones de 
+software como FLOSS para crear una comunidad libre alrededor.
 
-Apple, Microsoft, Facebook, liberan partes de su código para crear una comunidad para mantener
-el producto por parte de la misma.
+Apple, Microsoft, Facebook, release parts of your code to create a community to 
+keep the product by the same community (composed of these same companies also).
 
-Desequilibrios.
+\subsection{Imbalances}
 
-Usuarios que no quieren pagar por el Software privativo y se conforman con el programa libre y gratuito.
-Pueden llegar a mejorar al modelo privativo. El privativo se ve desafiado cuando aparece una solución FLOSS
-fiable que genere una aceptación en el mercado. (sitemas embebidos)
+Users who do not want to pay for proprietary software and are satisfied with 
+the program free of charge.
+
+They can improve the proprietary model. The proprietary is challenged when a 
+FLOSS reliable solution generates an acceptance in the market. (sitemas embedded)
 
 \section{Carlo Daffara taxonomy}
 
 \begin{itemize}
-    \item Dual licencing: FLOSS version and propietary version. MySQL Enterprise and MySQL FLOSS.
-    \item Open core: Allows mixing FLOSS and proprietary elements. MSExcange mail model.
-    \item Product specialists: Superior knowledge, additional services. Best service for the product.
-    \item Platform providers: Integration, product testing. PaaS: FLOSS producto integration, glue products. Test by your own.
-    \item Aggregate support providers: Primer nivel de soporte para diferentes tipos de software libre. Escalando el soporte entre todos los niveles.
-    \item Selection/consulting companies: Closer to the analyst role, minimum impact on FLOSS communities.
-    \item Legal certification and consulting : Assessment on license compatibility. Certificate interoperability.
-    \item Training and documentation: Either as part of a broader support contract or companies exclusively devoted to this market area. User guides, documentation, courses.
-    \item R&D cost sharing : Initial investment + creating community to reduce R&D costs. Create a community to reduce I+D cost % haciendo que la gente aporte desde fuera para mantenerse al día mediante la herramienta de la comunidad. OpenStack from NASA throught RackSpace sharing development cost.
-    \item Indirect revenues: Baseline for sales of associated products or services (commodities).
+    \item Dual licencing: FLOSS version and propietary version. 
+    MySQL Enterprise and MySQL FLOSS.
+    \item Open core: Allows mixing FLOSS and proprietary elements. 
+    MSExcange mail model.
+    \item Product specialists: Superior knowledge, additional services. 
+    Best service for the product.
+    \item Platform providers: Integration, product testing. 
+    PaaS: FLOSS producto integration, glue products. Test by your own.
+    \item Aggregate support providers: 
+    First level of support for different types of free software. 
+    Scale the support from all levels.
+    \item Selection/consulting companies: Closer to the analyst role, 
+    minimum impact on FLOSS communities.
+    \item Legal certification and consulting : Assessment on license 
+    compatibility. Certificate interoperability.
+    \item Training and documentation: Either as part of a broader support 
+    contract or companies exclusively devoted to this market area. U
+    ser guides, documentation, courses.
+    \item R\&D cost sharing : Initial investment + creating community to 
+    reduce R\&D costs. Create a community to reduce I+D cost
+    Making people contribute from outside to keep up with the community tool.
+    OpenStack from NASA throught RackSpace sharing development cost.
+    \item Indirect revenues: Baseline for sales of associated products or 
+    services (commodities).
 \end{itemize}
 
 \subsection{Dual (or multiple) licensing)}
 
-Tienes que ser el dueño de todo el código, los contribuyentes ceden sus derechos de copyright para
-licenciar el producto. El simple hecho de tener que firmar un documento echa hacia atrás las contribuciones de la comunidad.
+You must be the owner of all code. Contributors transfer their copyright to
+license the product. The simple fact of having to sign a document pulls back 
+the community contributions.
 
-MySQL integrado en otros productos para que el producto no se liberase siendo privado y de esta forma no violar la licencia GPL.
-Relacionado con la licencia, la licencia Apache y privativo no hubiera funcionado ya que Apache permite el uso de su código dentro
-de un producto privado.
+Example of MySQL.
+Integrated with other products to the product not being liberate private and 
+thus not violating the GPL.
+Related to the license, the Apache License and proprietary, had not worked 
+since Apache allows the use of their code in a private product.
 
 \subsection{Open core}
 
-Los ingresos o beneficios se centran en los componentes privativos alrededor 
-del núcleo libre siendo esa misma empresa la única que puede desarrollar 
-las mejoras de sus servicios. Todo el núcleo es libre.
+Revenues or profits focus on proprietary components around
+Open Core. Being the same company, the only one that can develop
+improvement of its services. The entire core is free.
 
-Weakness: Desarrollar el servicio privativo mediante FLOSS, replicando sus
-funcionalidades, reimplementación de un producto popular.
+Weakness: Develop proprietary service by FLOSS, replicating their
+functionalities, reimplementation of a popular product.
 
-Suelen tener licencias duales para poder proporcionar la versión FLOSS y la privada.
+They usually have dual licenses to provide private and FLOSS version.
 
-Base grande de usuario, visibilidad y oportunidad de convertirlos a usuarios premium para 
-obtener los beneficios.
+Large user base, visibility and opportunity to convert to premium users to get 
+the benefits.
 
-Ganan valor de marca al ser reconocidos por la liberación del core.
+Win brand value to be recognized by the release of the core.
 
-Ejemplo: Implementación de Apache SSL. 
-Valor añadido al software al ser la compañía la propietaria del núcleo.
+Example: Implementing SSL Apache. 
+Value added to the software to be the company's proprietary core.
 
-Es un modelo de negocio libre controvertido ya que genera componentes privatidos a 
-través de su plataforma libre, el núcleo.
+It's a business model that generates free controversial and private components
+ through its open platform, the core.
 
-Hay un compenente de duda alrededor de estos proyectos ya que no se abren a la
- comunidad al completo al desarrollar recursos privativos para la propia empresa.
- 
-Otra forma más positiva de verlo, es que atrae a diferentes empresas para 
-invertir en el producto al poder desarrollar módulos privados. La empresa gasta
- un gran esfuerzo en la viabilidad del núcleo ya que si no se extiende sus 
- servicios no tendrían un nicho de negocio.
+There is a doubt compenente around these projects, as they are not open to the
+  whole community, to develop proprietary resources for the company.
+ 
+A more positive view is that attracts different companies for
+invest in the product to be able to develop private modules. The company spends
+  a great effort on the viability of the core because if not extended their
+  services would not have a business niche.
 
-¿ Gana más recursos ? o se puede ver perjudicada la empresa por este 
-comportamiento del modelo de negocio. ¿ De que depende que le convenga a una 
-empresa adoptar este modelo ? 
+Do you earn more resources? or may be impaired by this company
+behavior of the business model. What determines which one suits you
+companies adopt this model?
 
-Es un modelo muy cercano al privativo que intenta de alguna manera mantener al 
-cliente cercado e inmóbil. Este modelo puede tender a desaparecer porque se puede
-dar el caso que otra comunidad, proyecto o empresa que avance más rápido que 
-la solución ofrecida por la empresa y por lo tanto se vea obligada a liberar el 
-código, siendo demasiado tarde.
+It is very close to the proprietary model, and somehow try to keep the customer 
+fenced and locked. This model may tend to disappear because it may be the case 
+that another community project or company to advance faster than the solution 
+offered by the company and therefore is forced to release the code, being
+ too late.
 
-El modelo se mueve a través de una ventana temporal, es decir el 
-openCore no parece viable de por vida, tiende a la liberación completa 
-del código. Si el producto tiene éxito, es mucho más fácil que ocurra.
+The pattern moves across a time window, ie not seem feasible OpenCore lifetime 
+tends to complete release code. If the product is successful, 
+it is easier to occur.
 
-SendMail, SugarCRM.
+Samples: SendMail, SugarCRM.
 
 \subsection{Product specialists}
 
-Tengo el mejor conocimiento del producto certificado.
+\emph{I have the best knowledge of the certified product.}
 
-LPI y RedHat: dos certifiaciones alrededor de Linux. 
+LPI y RedHat: two certifications of Linux knowledge. 
 
-Modelo de Redhat en el campo del could computing: Incluir desarrolladores en el 
-grupo de OpenStack y convertirse en una empresa especialista, no hace falta ser el creador del producto.
+Redhat model in the field of computing Could: Include developers in
+OpenStack group and become a specialist. No need to be the creator of the 
+product.
 
-Weakness: Que otra empresa con mejor imagen, más nombre, mejores desarrollos desborde tu marca conseguida
- y por lo tanto quedes relegado a un segundo plano.
+Weakness: another company with better image, more name, best developments, 
+overflowing your brand achieved and therefore, 
+you become relegate to the background.
  
 \subsection{Platform providers}
 
 \begin{itemize}
-  \item Selection, support, integration and services around a set of projects integrated in a single, tested and verified product.
+  \item Selection, support, integration and services around a set of projects 
+  integrated in a single, tested and verified product.
   \item Key points; 
   \begin{itemize}
     \item Verification services
@@ -286,70 +312,87 @@ Weakness: Que otra empresa con mejor imagen, más nombre, mejores desarrollos de
   \end{itemize}
   \item Copyright ownership prevents direct copy (not cloning).
   \item Example: Redhat.
-  \item The source code is libre software, but the product name and logo are trademarks.
+  \item The source code is libre software, but the product name and logo 
+  are trademarks.
   \item Considerable effort to eliminate them from files, doocumentation, etc.
 \end{itemize}
 
-Modelo de negocio de integración: tabletas de marca blanca, software, hardware, etc\ldots
-Reproductores multimedia 'carrefour'.
+Integrated business model: private label tablets, software, hardware, etc.\ldots
+Multimedia players from 'Carrefour'.
 
-Especialización y conversión en marca blanca de una tecnología.
+Specialization and white label conversion technology.
 
 \subsection{Aggregate support providers}
 
-Parecido al soporte clásico pero con la diferencia de que es a todos los niveles.
+Similar to classic support but with the difference that is at all levels.
 
-Dos caminos a elegir:
-Mediante el uso de recursos propios o la contratación de terceros para la resolución de los problemas.
-Frontdesk; gestiona las peticiones a través de las empresas que conozcan el producto.
+Two paths to choose from:
+\begin{itemize}
+  \item By using its own resources or outsourcing to solve problems.
+  \item Frontdesk; handles requests by companies who know the product.
+\end{itemize}
 
-Clear benefit for large projects whose costs could raise due to excessive diversification of support channels (comprehensive help-desl).
+Clear benefit for large projects whose costs could raise due to excessive
+ diversification of support channels (comprehensive help-desl).
 
 OpenLogic: experts in Linux.
 
 \subsection{Selection/consulting companies}
 
-No desarrollan software, se encargan de proveer soluciones asesorando al cliente. Pruebas, análisis de rendimientos, conocimientos del territorio.
+No software developers. They are responsible for advising the client to 
+provide solutions. Testing, performance analysis, knowledge of the territory.
 
-Gente experta en un campo dedicado a hacer análisis de un producto en cuestión. 
-Estas empresas proporcionan herramientas que ayudan a reproducir resultados para interpretarlos haciendo análisis más completos.
+People expert in a field dedicated to doing analysis of a product.
+
+These companies provide tools that help to interpret results by playing 
+more complete analysis.
 
 Open WebApps
 
 \subsection{Legal certification/consulting}
 
-Palamida, Blackduck (mediante ohloh), Sonatype.
+Specializing in software licensing and code analysis for possible 
+incompatibilities.
 
-Especialización en las licencias de software y análisis de código para buscar posibles incompatibilidades.
+Palamida, Blackduck (mediante ohloh), Sonatype.
 
 \subsection{Training and documentation}
 
-Training and documentation not certifiation. GBDirect. 
+Training and documentation not certifiation.
 
-\subsection{R&D Const sharing}
+GBDirect. 
 
-Memo (nokia), nokia sólo desarrollaría una parte y el resto se quedaría en manos de la comunidad. Este modelo
- es previo a Android. Sabían del coste de software pero no eran un empresa productora, se dedicaban a la 
- fabricación de los terminales por lo que optaron por este modelo, dejar que el software creciera de mano
- de la comunidad. KDE, QT, Linux eran partes que formaban el núcleo de Memo.
+\subsection{R\&D Const sharing}
+
+\emph{Memo (nokia)}, nokia develop only a portion and the rest would be up to the
+ community. This model is before Android. They knew the cost of software but 
+ were not a production company, engaged in the manufacture of terminals so 
+ opted for this model, let the software grew hand in the community. KDE, QT, 
+ Linux were parties that formed the core of Memo.
  
-OpenStack: RackSpace se dedica al mercado del cloud, vende clouds. Productizó OpenStack compartiendo el gasto 
-del desarrollo con la comunidad (HP, Redhat, Intel\ldots). No es su nicho de mercado y de esta forma el desarollo
- de software libre lo comparte con los demás para aprovecharse del producto.
-
+\emph{OpenStack}: Rackspace is dedicated to the cloud market, sold clouds. 
+RackSpace produced 'OpenStack' sharing the cost of developing the community 
+(HP, Redhat, Intel\ldots). Not your niche market, so the development of free
+ software is shared with others to take advantage of the product.
+ 
 \subsection{Indirect revenues}
 
-Intel, Dell, O'Relly. Perl fue el primer caso de la financiación de un proyecto de software libre a Larry Wall 
-para que éste escribiese un libro para su editorial manteniendo los gastos del proyecto a su costa para sacar 
-la próxima versión de Perl.
+Intel, Dell, O'Reilly. Perl was the first case of financing a free software
+ project to Larry Wall. For Larry Wall wrote a book for his publisher (O'Reilly)
+  paying the cost of the project at its own expense to get 
+  the next version of Perl.
 
-% Include graphic.
 
-Open source going mainstream - Gartner group report.
+Open source going mainstream - Gartner group 
+report\footnote{http://www.gartner.com/newsroom/id/593207}
 
-Se duplican los beneficios cada tres años después del crecimiento del uso de software libre.
-
-\ldots
-\end{comment}
+\emph{By 2012, 80 per cent of all commercial software will include elements of
+ open-source technology. Many open-source technologies are mature, stable and
+  well supported. They provide significant opportunities for vendors and users
+   to lower their total cost of ownership and increase returns on investment. 
+   Ignoring this will put companies at a serious competitive disadvantage. 
+   Embedded open source strategies will become the minimal level of investment
+    that most large software vendors will find necessary to maintain
+     competitive advantages during the next five years.}
 
 \section{Conclusions}\label{conclusions}

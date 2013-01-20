@@ -22,3 +22,5 @@
 .project
 .texlipse
 tmp
+*.lof
+*.gz
